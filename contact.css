@@ -1,0 +1,130 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.lbl1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.form2{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.lang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.lang2 {
+    margin: 0 10px;
+    padding: 5px 10px;
+    font-size: 28px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    text-decoration: none;
+}
+
+.back1 {
+    margin-left: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #0056b3;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.lang button:hover {
+    background-color: #0056b3;
+}
+
+.lang .lang_img {
+    margin-right: 5px;
+    width: 50px;
+    height: auto;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="number"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+form input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 1008px) {
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"],
+    form input[type="number"],
+    form select,
+    form textarea {
+        font-size: 22px;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        max-width: 1000px;
+    }
+
+    .lbl1{
+        font-size: 60px;
+    }
+
+    .form2{
+        font-size: 30px;
+        font-family: Arial, sans-serif;
+    }
+
+    .lang2 {
+        font-size: 35px;
+    }
+
+    .back1 {
+        font-size: 30px;
+        font-family: Arial, sans-serif;
+    }
+
+    form input[type="submit"]{
+        font-size: 30px;
+        font-family: Arial, sans-serif;
+    }
+}
